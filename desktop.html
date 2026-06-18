@@ -67,7 +67,7 @@ a{text-decoration:none;color:inherit}
 .btn-orange:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(243,100,33,.42)}
 
 /* HERO */
-.hero{background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('hero-bg.jpg') no-repeat center center/cover; min-height: calc(100vh - 70px); display: flex; align-items: center; padding: 80px 48px; position: relative;}
+.hero{background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.85)), url('hero-bg.jpg') no-repeat center center/cover; min-height: calc(100vh - 70px); display: flex; align-items: center; padding: 80px 48px; position: relative;}
 .hc1{position:absolute;right:-60px;top:50%;transform:translateY(-50%);width:clamp(380px,46vw,580px);height:clamp(380px,46vw,580px);border-radius:50%;background:var(--navy);pointer-events:none}
 .hc2{position:absolute;right:70px;top:50%;transform:translateY(-50%);width:clamp(250px,31vw,400px);height:clamp(250px,31vw,400px);border-radius:50%;background:var(--orange);pointer-events:none}
 .hero-in {
@@ -75,10 +75,12 @@ a{text-decoration:none;color:inherit}
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: start; 
     align-items: center;
     gap: 50px;
     position: relative;
     z-index: 2;
+}
 }
 .hero-chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 16px 6px 10px;box-shadow:var(--s1);font-family:var(--fh);font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin-bottom:20px}
 .chip-dot{width:8px;height:8px;border-radius:50%;background:var(--orange);animation:pdot 2s infinite}
