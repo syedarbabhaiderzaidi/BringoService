@@ -88,7 +88,27 @@ a{text-decoration:none;color:inherit}
 .hst-n sup{font-size:.85rem;color:var(--orange)}
 .hst-l{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--tl);margin-top:4px}
 
+/* RIDER CARD RIGHT */
 
+.hero-right{display:flex;align-items:center;justify-content:center;position:relative}
+.rc{background:#fff;border-radius:24px;overflow:hidden;width:320px;box-shadow:var(--s4);position:relative;z-index:2}
+.rc-img{height:300px;background:linear-gradient(150deg,#dde3f8,#bcc8f0);display:flex;align-items:flex-end;justify-content:center;padding-bottom:20px;overflow:hidden;position:relative}
+.rc-img::before{content:'';position:absolute;bottom:-30px;right:-30px;width:160px;height:160px;border-radius:50%;background:var(--odim)}
+.rc-icon{font-size:7rem;line-height:1;filter:drop-shadow(0 8px 24px rgba(0,0,0,.18));position:relative;z-index:1}
+.rc-foot{padding:18px 20px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border)}
+.rc-name{font-family:var(--fh);font-weight:800;font-size:.95rem;color:var(--th)}
+.rc-role{font-size:.7rem;color:var(--tm);margin-top:2px}
+.rc-status{display:flex;align-items:center;gap:5px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:999px;padding:5px 11px}
+.rc-dot{width:6px;height:6px;border-radius:50%;background:#16a34a}
+.rc-st{font-family:var(--fh);font-size:.63rem;font-weight:700;color:#16a34a}
+.fb{position:absolute;z-index:3;background:#fff;border-radius:12px;box-shadow:var(--s3);padding:12px 16px;display:flex;align-items:center;gap:10px}
+.fb1{bottom:72px;left:-40px;animation:flt 3.5s ease-in-out infinite}
+.fb2{top:72px;left:-28px;animation:flt 4s ease-in-out infinite .9s}
+@keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.fb-ic{width:36px;height:36px;border-radius:10px;background:var(--odim);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.fb-ic svg{width:18px;height:18px;fill:none;stroke:var(--orange);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fb-main{font-family:var(--fh);font-weight:700;font-size:.76rem;color:var(--th)}
+.fb-sub{font-size:.63rem;color:var(--tm);margin-top:1px}
 
 
 /* FEATURE STRIP */
