@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>BringO — Fast Delivery in Chowk Azam</title>
+<style>
+  html,body{margin:0;height:100%;background:#F5F0E8;display:flex;align-items:center;justify-content:center;font-family:sans-serif}
+  .loader{text-align:center;color:#1B2B6B;font-weight:700}
+</style>
+<script>
+  // Detect device and redirect to the correct version
+  (function(){
+    var isMobile = window.matchMedia("(max-width: 768px)").matches
+      || /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    window.location.replace(isMobile ? "mobile.html" : "desktop.html");
+  })();
+</script>
+</head>
+<body>
+  <div class="loader">Loading BringO…</div>
+  <noscript>
+    <p>JavaScript is required. <a href="desktop.html">Desktop version</a> | <a href="mobile.html">Mobile version</a></p>
+  </noscript>
+</body>
+</html>
