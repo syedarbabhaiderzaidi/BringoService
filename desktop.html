@@ -72,23 +72,26 @@ a{text-decoration:none;color:inherit}
     min-height: calc(100vh - 70px);
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 👈 This forces the child grid to pull completely to the left side */
-    padding: 80px max(40px, calc((100% - var(--max-width)) / 2)); /* 👈 Dynamic padding that aligns the box automatically with your header content width */
     position: relative;
+    padding: 80px 0;
 }
 .hc1{position:absolute;right:-60px;top:50%;transform:translateY(-50%);width:clamp(380px,46vw,580px);height:clamp(380px,46vw,580px);border-radius:50%;background:var(--navy);pointer-events:none}
 .hc2{position:absolute;right:70px;top:50%;transform:translateY(-50%);width:clamp(250px,31vw,400px);height:clamp(250px,31vw,400px);border-radius:50%;background:var(--orange);pointer-events:none}
+
 .hero-in {
-    max-width: var(--max-width);
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 48px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start; 
-    align-items: left;
+    align-items: stroke;
     gap: 50px;
     position: relative;
     z-index: 2;
-  .hero-left {
+}
+.hero-left {
     max-width: 42rem;
     position: relative;
     z-index: 3;
@@ -97,8 +100,6 @@ a{text-decoration:none;color:inherit}
     border-radius: 24px;               
     padding: 40px;                 
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05); 
-}
-}
 }
 .hero-chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 16px 6px 10px;box-shadow:var(--s1);font-family:var(--fh);font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin-bottom:20px}
 .chip-dot{width:8px;height:8px;border-radius:50%;background:var(--orange);animation:pdot 2s infinite}
