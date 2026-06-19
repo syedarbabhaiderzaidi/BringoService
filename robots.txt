@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Link to your XML Sitemap
-Sitemap: https://bringoservice.com
+Sitemap: https://bringoservice.com/sitemap.xml
