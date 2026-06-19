@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://sitemaps.org">
-  <!-- Main Home Page -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bringoservice.com</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <loc>https://bringoservice.com/</loc>
+    <priority>1.0</priority>
   </url>
-  
-  <!-- Desktop Layout File -->
   <url>
-    <loc>https://bringoservice.comdesktop.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <loc>https://bringoservice.com/desktop.html</loc>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Mobile Layout File -->
   <url>
-    <loc>https://bringoservice.commobile.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <loc>https://bringoservice.com/mobile.html</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>
